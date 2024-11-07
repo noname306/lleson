@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_btn {
+    box-sizing: border-box;
+    border: 3px solid rgb(239, 64, 15);
+    border-radius: 20px;
+    background: rgba(217, 217, 217, 0);
+    color: rgb(239, 64, 15);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    padding: 16px 17px 18px 22px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_list {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.header_link {
+    text-decoration: none;
+    color: rgb(188, 170, 170);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.header_img {
+    padding-top: 20px;
+}
+
+.header {
+    padding: 46px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(188, 170, 170);
+    box-shadow: 0px 4px 8.7px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+}
+
+.mag {
+    padding-top: 40px;
+}
+
+.mag_title {
+    color: rgb(13, 12, 92);
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.mag_ttitle {
+    display: flex;
+    gap: 20px;
+}
+
+.mag_mintitle {
+    color: rgb(0, 0, 0);
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.mag_price {
+    color: rgba(0, 0, 0, 0.67);
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.mag_mav {
+    color: rgba(0, 0, 0, 0.75);
+    font-family: "Inter";
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+
+
+.mag_item {
+    border-radius: 30px;
+    box-shadow: 0px 4px 13.3px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    width: 290px;
+    height: 290px;
+}
+
+.mag_img {
+    padding: 44px 54px 0 54px;
+}
+
+.mag_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    gap: 35px;
+}
+
+.mag_coinbox {
+    display: flex;
+}
+
+.mag_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
